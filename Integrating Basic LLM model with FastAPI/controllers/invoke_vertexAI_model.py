@@ -10,7 +10,7 @@ import vertexai
 def generate_answer(query):
     client = genai.Client(
       vertexai=True,
-      project="fresh-span-400217",
+      project="fresh-data",
       location="us-central1",
     )
 
